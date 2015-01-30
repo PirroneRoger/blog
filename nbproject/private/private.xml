@@ -5,6 +5,8 @@
         <group>
             <file>file:/C:/xampp/htdocs/pirrone-blog/model/database.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/controller/create-db.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/footer.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/header.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/index.php</file>
         </group>
     </open-files>
