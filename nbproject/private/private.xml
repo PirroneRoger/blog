@@ -5,9 +5,11 @@
         <group>
             <file>file:/C:/xampp/htdocs/pirrone-blog/controller/create-db.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/view/register-form.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/controller/create-user.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/controller/create-post.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/form.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/register.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/model/config.php</file>
-            <file>file:/C:/xampp/htdocs/pirrone-blog/post.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/model/Database.php</file>
         </group>
     </open-files>
