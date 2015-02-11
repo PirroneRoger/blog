@@ -1,11 +1,7 @@
+
 <?php
     require_once(__DIR__ . "/../model/config.php");
     require_once(__DIR__ . "/../controller/login-verify.php");
-    
-    if(!authenticateUser()) {
-        header("Location: " . $path . "index.php");
-        die();
-    }
     
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
     $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
