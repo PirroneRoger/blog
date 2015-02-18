@@ -1,8 +1,11 @@
+<!--this is for the nav bar-->
 <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php">Home</a></li>
 <li role="presentation"><a role="menuitem" tabindex="-1" href="login.php">Login</a></li>
 <li role="presentation"><a role="menuitem" tabindex="-1" href="register.php">Register</a></li>
 
 <?php
+    //this is requiring all the various files to create the index page.
+    //the index isn't created by just html so it uses different files.
     require_once(__DIR__ . "/controller/login-verify.php");
     require_once(__DIR__ . "/view/header.php");
     if(authenticateUser()) {
