@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <!--The following code in <head> calls upon the css bootstrap and custom-style files.-->
+        <title>Technology</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+    </head>
+    <body>
+        <!--This code calls upon the container which is part of bootstrap.-->
+        <div class="container">
+            <h2>TECHNOLOGY</h2>
+        </div>
+            <!--This code calls upon the container which is part of bootstrap.-->
+            <div class="container">
+                <div class="col-xs-10">
+                    <!--This code makes "HTML" link you to a website with basic
+                        and advanced tutorials.-->
+                    <!--The target=blank code forces the link to open in a new tab.-->
+                    <h1><a href='http://www.w3schools.com/html/' target=_blank>HTML</a></h1>
+                    <p>HTML stands for "Hyper-Text Markup Language." 
+                        This is the language that Web pages are written in. 
+                        <br>Also known as hypertext documents, Web pages must
+                        conform to the rules of HTML 
+                        in order to be displayed correctly in a Web browser. 
+                        <br>The HTML syntax is based on a list of tags that describe 
+                        the page's format and what is displayed on the Web page.</p>
+                    <!--This code makes "CSS" link you to a website with basic
+                        and advanced tutorials.
+                        The target=blank code forces the link to open in a new tab.-->
+                    <h1><a href='http://www.w3schools.com/css/' target=_blank>CSS</a></h1>
+                    <p>Cascading Style Sheets (CSS) is a style sheet language
+                        used for describing the look and formatting of a document
+                        written in a markup language.</p>
+                    <!--This code makes "BOOTSTRAP" link you to their official website.
+                        The target=blank code forces the link to open in a new tab.-->
+                    <h1><a href="http://getbootstrap.com/" target=_blank>BOOTSTRAP</a></h1>
+                    <p>Bootstrap is a free collection of tools for creating
+                       websites and web applications. It contains HTML and
+                       CSS-based design templates for typography, forms, buttons,
+                       navigation and other interface components, as well as
+                       optional <a href='http://www.w3schools.com/js/' target=_blank>Javascript</a>.
+                    <h1><a href='http://www.w3schools.com/js/' target=_blank>JAVASCRIPT</a></h1>
+                    <p>Javascript is an object-oriented computer programming language commonly
+                       used to create interactive effects within web browsers.
+                    <h1><a href="http://jquery.com/" target=_blank>JQUERY</a></h1>
+                    <p>Jquery is a programming language that allows you to modify anything on your website without using CSS.
+                       It lets you change or add specific things and control when they will be added.
+                    <h1><a href="http://melonjs.org/" target=_blank>MELONJS</a></h1> 
+                    <p>MelonJS uses Javascript to build games. MelonJS uses a program called Tiled to help build it's levels.
+                    <h1><a href="http://wiki.theappacademy.us/index.php?title=Main_Page" target=_blank>APP ACADEMY</a></h1>   
+                    <p>I also used the Pasadena High School App Academy website
+                       with tutorial videos. Here is an example of one. 
+                       <!--This code is for creating the modal.-->
+                    <p><button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
+                        Click Me!
+                       </button>
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Grid System</h4>
+                                </div>
+                            <!--This starts the body of my modal.-->
+                            <div class="modal-body">
+                                <!--The "embeded-responsive" makes the video responsive to the browser size.
+                                    The "4by3" code restricts the ratio of the video to 4:3.-->
+                                <div id="Video" class="embed-responsive embed-responsive-4by3"><iframe
+                                class="embed-responsive-item" src="//www.youtube.com/embed/u4UenQXbeI4"></iframe>
+                                </div> 
+                            </div>
+                                <div class="modal-footer">
+                                <!--The "class='btn btn-warning changes the color of the button to light orange."-->    
+                                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h1>OTHER RESOURCES</h1>
+                    <p>Here's a website that has very helpful tutorials on creating a website!
+                       <br>Click the picture to learn more.
+                    <!--The following code makes the picture a link to the website it represents.
+                        The target=blank code forces the link to open in a new tab.-->   
+                    <p><a href="http://www.w3schools.com/" target=_blank>
+                       <img id='w3' src="images/w3-schools.jpg"></a>
+                </div>
+                <!--The following code creates the menu and an active link on the About option.-->
+                <div id="TechnologyNav" class="col-xs-2">
+                    <div class="dropdown">
+                    <!--The "class='btn btn-warning changes the color of the button to light orange."-->    
+                    <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Menu
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+                        <!--class active makes the technology button have a blue background indicating that is the page you are currently on.-->
+                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="jquery.html">JQuery</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php">Blog</a></li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+        <!--The scripts allow certain bootstrap features to work properly.-->    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

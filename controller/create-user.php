@@ -19,7 +19,8 @@
     
     $hashedPassword = crypt($password, $salt);
     
-    $query = $_SESSION["connection"]->query("INSERT INTO users SET " 
+    $query = $_SESSION["connection"]->query("SELECT * FROM users WHERE BINARY username='$username' AND password='$password'"
+ 
             . "email = '$email',"
             . "username = '$username',"
             . "password = '$hashedPassword',"

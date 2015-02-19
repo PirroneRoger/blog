@@ -2,6 +2,8 @@
 <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php">Home</a></li>
 <li role="presentation"><a role="menuitem" tabindex="-1" href="login.php">Login</a></li>
 <li role="presentation"><a role="menuitem" tabindex="-1" href="register.php">Register</a></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Portfolio</a></li>
+
 
 <?php
     //this is requiring all the various files to create the index page.

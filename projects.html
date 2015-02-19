@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <!--The following code in <head> calls upon the css bootstrap and custom-style files.-->
+        <title>Projects</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+    </head>
+    <body>
+        <!--This code calls upon the container which is part of bootstrap.-->
+        <div class="container">
+            <h2>PROJECTS</h2>
+        </div>    
+            <!--This code calls upon the container which is part of bootstrap.-->
+            <div class="container">
+                <div class="col-xs-10">
+                    <p>This is my second portfolio website. I am using
+                        <!--The target=blank code forces the link to open in a new tab.-->
+                        <a href='http://www.w3schools.com/html/' target=_blank>HTML</a>,
+                       <a href='http://www.w3schools.com/css/' target=_blank>CSS</a>,
+                       and the <a href="http://getbootstrap.com/" target=_blank>Bootstrap</a>
+                       grid system. 
+                        <br>This webstie includes an <a href='index.html'>About</a>
+                        page, a Projects page (the page you are currently on), 
+                        and a <a href="technology.html">Technology</a> page.</p>
+                    <p><br>Here are screenshots of all my projects throughout the
+                        year. This includes my <a href="#first">first</a> and <a href="#second">second</a> portfolios,
+                        a <a href="#snake">snake</a> game, and a <a href="#mario">Mario</a> game.</p>
+                    <!--This code calls upon bootstrap's jumbotron for the portfolio images.-->
+                    <div class="jumbotron">
+                      <h1>Portfolio Screenshots</h1>
+                      <p><br><a name="first"></a>My first portfolio website used basic elements of HTML and CSS.</p>
+                      <p><img src="images/portfolio-v1-screenshot.png">
+                      </p>   
+                      <p><br><a name="second"></a>My second portfolio website uses more advanced and
+                         responsive features. It was built using HTML, CSS, and Bootstrap.
+                      </p>   
+                      <p><img src="images/portfolio-v2-screenshot.png">
+                      </p>
+                      <p><br><a name="snake"></a>My snake game was built using basic Javascript code.</p>
+                      <p><img src="images/snake-screen.png"></p>
+                      <p><br><a name="mario"></a>My Mario game was built using MelonJS and Tiled.</p>
+                      <p><img src='images/mario.png'></p>
+                    </div>
+                </div>
+                <!--The following code creates the menu and an active link on the About option.-->
+                <div id="ProjectNav" class="col-xs-2">
+                <div class="dropdown">
+                    <!--The "class='btn btn-warning changes the color of the button to light orange."-->
+                    <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Menu
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
+                        <!--class active makes the projects button have a blue background indicating that is the page you are currently on.-->
+                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="jquery.html">JQuery</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php">Blog</a></li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+        <!--The scripts allow certain bootstrap features to work properly.-->    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

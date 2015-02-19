@@ -9,4 +9,6 @@
 ?>
 <nav>
         <li><a href="<?php echo $path . "post.php"?>">Post</a></li>
+        <li><a href="<?php echo $path . "/../controller/logout-user.php"?>">Logout</a></li>
+        
 </nav>

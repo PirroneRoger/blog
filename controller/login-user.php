@@ -1,3 +1,4 @@
+<li role="presentation"><a role="menuitem" tabindex="-1" href="../index.php">Home</a></li>
 <!--The following code is for logging in the user.-->
 <?php
     require_once(__DIR__ . "/../model/config.php");

@@ -1,0 +1,186 @@
+body {
+    background-color: black;
+    /*--This changes the font for the entire website to Helvetica.*/
+    font-family: Helvetica;
+    /*--This makes the font for the entire website yellow.*/
+    color: yellow;
+}
+
+
+div{
+    /*This CSS code in the div sets how our grid system will look, how wide and the color.*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 30px;
+}
+
+h1 {
+    text-align:  center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+img {
+    /*This sets all images width to 350px and the height to auto correct
+    itself to match that width*/
+    width: 350px; 
+    height: auto;  
+}
+
+#About{
+    /*This corrects the grid system to line up with the other container.*/
+    height: 223px;
+    /*This code makes the "About Me" modal be in the center.*/
+    text-align: center;
+}
+#AboutNav{
+    /*This corrects the grid system to line up with the other container.*/
+    height: 223px;
+}
+
+#ProjectNav{
+    /*This corrects the grid system to line up with the other container.*/
+    height: 1439px;
+}
+
+
+#TechnologyNav{
+    /*This corrects the grid system to line up with the other container.*/
+    height: 1149px;
+    
+}
+
+#w3{
+    /*This id selector overrides the above img css code by calling specifically
+    on the w3 image.*/
+    width: 200px; 
+    height: auto;
+}
+
+.modal-header{
+    /*This makes the modal header have an off grey color.*/
+    background-color: #282828;
+}
+
+.modal-body{
+    /*This makes the modal body have an off grey color.*/
+    background-color: #282828;
+}
+
+.modal-footer{
+    /*This makes the modal footer have an off grey color.*/
+    background-color: #282828;
+}
+
+.modal-dialog{
+    /*This makes the modal dialog have a black color.*/
+    background-color: black;
+}
+
+.modal-content{
+    /*This makes the modal content have an off grey color.*/
+    background-color: #282828;
+}
+
+.jumbotron{
+    /*This makes the jumbotron have an off grey color.*/
+    background-color: #282828;
+}
+
+/* unvisited link */
+a:link {
+    color: #e6e6e6;
+}
+
+/* visited link */
+a:visited {
+    color: #e6e6e6;
+}
+
+/*All the flip stuff is for the flipper.*/
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: auto;
+	height: 200px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 10.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+/*changes text in specified button to black*/
+#hidePic {
+    color: black;
+}
+/*changes text in specified button to black*/
+#replaceWText {
+    color: black;
+}
+/*changes text in specified button to black*/
+#removePara {
+    color: black;
+}
+/*makes the links in #animateList move the left 20px*/
+#animateList :hover {
+    padding-left: 20px;
+}
+
+/*code for the custom cursor*/
+#jquery {
+    cursor: url('../images/stormtrooper.png'), default;
+}
+
+#jqueryNav{
+    /*This corrects the grid system to line up with the other container.*/
+    height: 1459px;
+    
+}

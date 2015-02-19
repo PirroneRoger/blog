@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>JQuery Examples Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    </head>
+    <!--This id is here to allow for the custom cursor.-->
+    <body id="jquery">
+        <!--This code calls upon the container which is part of bootstrap.-->
+        <div class="container">
+            <h2>JQuery Examples</h2>
+        </div>    
+            <!--This code calls upon the container which is part of bootstrap.-->
+            <div class="container">
+                <div class="col-xs-10">
+                    <div class="intro">
+                        <p>Hey. This background is blue because of JQuery and not CSS.</p>
+                        <p id="alter">Go touch Smiley. He's nice...</p>
+                        <img src="images/smiley.png">
+                        <button id="hidePic" type="button">Hide All Images</button>
+                        <button id="replaceWText" type="button">Add Text</button>
+                        <button id="removePara" type="button">Delete Text</button>
+                        <p id="randPara"></p>
+                        <!--This flip code is for the flipper.-->
+                        <div class="flip-container">
+                        <div class="flipper">
+                        <div class="front">
+                        <!-- front content -->
+                        this kind of
+                        </div>
+                        <div class="back">
+                        <!-- back content -->
+                        is terrible.
+                        </div>
+                        </div>
+                        </div>                        
+                        <h3>LINKS</h3>                        
+                        <ul id="animateList">
+                            <li><a href='https://www.wikipedia.org/' target=_blank>Wikipedia</a></li>
+                            <li><a href='https://www.google.com/' target=_blank>Google</a></li>
+                        </ul>
+                        <!--The following code is for the accordion feature.-->
+                        <div id="superHumans">
+                            <h3>Avengers</h3>
+                            <p>Include but not limited to Iron Man, Captain America, Hulk, Thor. </p>
+                            <h3>X Men</h3>
+                            <p>Include but not limited to Wolverine, Prof. X, Storm, Beast. </p>
+                            <h3>Marvel Villians</h3>
+                            <p>Include but not limited to Ultron, Thanos, Magneto.</p>
+                        </div>
+                        <!--The following code is fragments for the tabs feature.-->
+                        <div id="tabs">
+                            <ul>
+                                <li><a href="#fragment-1"><span>Jedi</span></a></li>
+                                <li><a href="#fragment-2"><span>Sith</span></a></li>
+                                <li><a href="#fragment-3"><span>Bounty Hunters</span></a></li>
+                            </ul>                            
+                            <div id="fragment-1">  
+                                Jedi include but not limited to Yoda, Mace Windu, Obi-Wan, Anakin Skywalker, Ahsoka Tano, Luke Skywalker.
+                            </div>
+                            <div id="fragment-2">     
+                                Sith include but not limited to Sidious, Vader, Maul, Tyranus, Bane, Revan.
+                            </div>
+                            <div id="fragment-3">   
+                                Bounty Hunters include but not limited to Jango Fett, Boba Fett, Cad Bane, IG-88, Bossk.
+                            </div>
+                        </div>
+                        <!--This code is for the draggable box.-->
+                        <div id="drag" class="ui-widget-content">
+                            <p>Drag Darth Sidious with you wehever you go
+                                <br><img src="images/sidious-smile.jpg">
+                            </p>
+                        </div>
+                        <p>This is purple because of JQuery. So yay.</p>
+                    </div>
+                </div>
+                <!--The following code creates the menu and an active link on the JQuery option.-->
+                <div id="jqueryNav" class="col-xs-2">
+                <div class="dropdown">
+                    <!--The "class='btn btn-warning changes the color of the button to light orange."-->
+                    <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Menu
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
+                        <!--class active makes the projects button have a blue background indicating that is the page you are currently on.-->
+                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="jquery.html">JQuery</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php">Blog</a></li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+        <!--The scripts allow certain bootstrap features to work properly.-->    
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
