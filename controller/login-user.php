@@ -7,9 +7,11 @@
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
     $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
     //this code calls upon the query for salt from users to where username thing.
-    $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = '$username'");
+    $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE BINARY username = '$username'");
+    echo $query->num_rows;
    //This here code sets the number of rows and fetches the array
     if($query->num_rows == 1) {
+        echo 'num_rows1';
         $row = $query->fetch_array();
         //this here code checks if the login is successful and if it is it logs in.
         if($row["password"] === crypt($password, $row["salt"])) {
