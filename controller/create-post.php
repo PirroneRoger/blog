@@ -18,7 +18,7 @@
     $query = $_SESSION["connection"]->query("INSERT INTO posts SET title = '$title', post = '$post' ");
     
     if($query) {
-        echo "<p>Successfully Inserted Post: $title</p>";
+        header("Location: " . $path . "index.php");
     }
     //if it is false it echos and error but if its true it echos the above.
     else {

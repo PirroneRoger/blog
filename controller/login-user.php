@@ -11,12 +11,11 @@
     echo $query->num_rows;
    //This here code sets the number of rows and fetches the array
     if($query->num_rows == 1) {
-        echo 'num_rows1';
         $row = $query->fetch_array();
         //this here code checks if the login is successful and if it is it logs in.
         if($row["password"] === crypt($password, $row["salt"])) {
             $_SESSION["authenticated"] = true;
-            echo "<p>Login Successful!</p>";
+            header("Location: " . $path . "index.php");
         }
         //if its wrong it echos the following stuff
         else {
