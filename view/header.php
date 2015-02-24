@@ -14,6 +14,8 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title></title>
     </head>
+    <h2>Blog</h2>
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <a href="header.php"></a>

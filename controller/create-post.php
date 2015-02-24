@@ -1,8 +1,3 @@
-<!--This stuff is for the nav bar and the ../ is cause it has to go out of the controller folder.-->
-<li role="presentation"><a role="menuitem" tabindex="-1" href="../index.php">Home</a></li>
-<li role="presentation"><a role="menuitem" tabindex="-1" href="../login.php">Login</a></li>
-<li role="presentation"><a role="menuitem" tabindex="-1" href="../register.php">Register</a></li>
-
 <?php
     require_once(__DIR__ . "/../model/config.php");
     require_once(__DIR__ . "/../controller/login-verify.php");

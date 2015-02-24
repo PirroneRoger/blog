@@ -16,17 +16,17 @@
     <div>
         <!--the title and input box-->
         <label for="title">Title: </label>
-        <input type="text" name="title" />
+        <input id='grey' type="text" name="title" />
     </div>
     
     <div>
         <!--The posts label and text box/area-->
         <label for="post">Post: </label>
-        <textarea name="post"></textarea>
+        <textarea id='grey' name="post"></textarea>
     </div>
     
     <div>
         <!--The submit button.-->
-        <button type="submit">Submit</button>
+        <button id='grey' type="submit">Submit</button>
     </div>
 </form>
