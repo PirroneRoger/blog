@@ -3,13 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/pirrone-blog/css/custom-style.css</file>
-            <file>file:/C:/xampp/htdocs/pirrone-blog/controller/create-db.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/view/register-form.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/controller/create-user.php</file>
-            <file>file:/C:/xampp/htdocs/pirrone-blog/css/blog-css.css</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/index.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/login-form.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/loggedInNav.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/model/Database.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/css/custom-style.css</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/controller/create-post.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/view/header.php</file>
             <file>file:/C:/xampp/htdocs/pirrone-blog/index.html</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/navigation.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/form.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/controller/login-user.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/controller/login-verify.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/view/loggedOutNav.php</file>
+            <file>file:/C:/xampp/htdocs/pirrone-blog/post.php</file>
         </group>
     </open-files>
 </project-private>
