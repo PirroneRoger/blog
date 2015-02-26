@@ -3,7 +3,7 @@ upon the config.php for some handy code that helps run this amazing blog that
 blows everyones mind.-->
 <?php
     require_once(__DIR__ . "/../model/config.php");
-    
+    //here it authenticates the user and if it's false it says you have the wrong username and password.
     function authenticateUser() {
         if(!isset($_SESSION["authenticated"])) {
             return false;

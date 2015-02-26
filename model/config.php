@@ -10,7 +10,7 @@
     $username = "root";
     $password = "root";
     $database = "blog_db";
-    //this is an if functikon checking connection and the connection with the database
+    //this is an if function checking connection and the connection with the database
     //and all the other stuff.
     //connection  to the datatabase
      if(!isset ($_SESSION["connection"])) {

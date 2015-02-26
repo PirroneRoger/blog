@@ -1,6 +1,7 @@
 <?php
 //this is checking the class database and making it all PRIVATE
 class Database {
+    //here it makes it all private cause privacy is good.
     private $connection;
     private $host;
     private $username;
@@ -57,7 +58,7 @@ class Database {
         
         //this closes the connectioin then it returns to the query thing or something.
         $this->closeConnection();
-        
+        //this is the return query code.
         return $query;
     }
     

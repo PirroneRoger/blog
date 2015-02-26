@@ -186,9 +186,11 @@ a:visited {
 }
 
 #hide{
+    /*This code hides something that was echoing and it was really annoying and totally ruined my website.*/
     visibility: hidden;
 }
 
 #grey {
+    /*This code is just to make the background of the buttons and input boxes grey.*/
     background-color: grey;
 }

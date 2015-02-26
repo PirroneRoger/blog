@@ -1,3 +1,4 @@
+<!--This code is the register form.-->
 <?php
     require_once(__DIR__ . "/../model/config.php");
 ?>
@@ -6,6 +7,7 @@
 
 <form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
     <div>
+        <!--This code is creating the button and input boxes. the grey thing is to make the -->
         <label for="email">Email: </label>
         <input id='grey' type="text" name="email" />
     </div>
